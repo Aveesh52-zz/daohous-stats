@@ -24,6 +24,10 @@ const config = {
     v2FactoryAddress: "0x1782a13f176e84Be200842Ade79daAA0B09F0418",
     v2FactoryStartBlock: 9484660,
   },
+  matic:{
+    v2FactoryAddress: "0x6690C139564144b27ebABA71F9126611a23A31C9",
+    v2FactoryStartBlock: 9484660
+  }   
 };
 
 const network = process.argv.slice(2)[0];

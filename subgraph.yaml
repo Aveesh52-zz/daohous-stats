@@ -6,7 +6,7 @@ dataSources:
     name: V2Factory
     network: rinkeby
     source:
-      address: '0x763b61A62EF076ad960E1d513713B2aeD7C1b88e'
+      address: '0x6690C139564144b27ebABA71F9126611a23A31C9'
       abi: V2Factory
       startBlock: 6494329
     mapping:
