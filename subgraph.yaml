@@ -4,7 +4,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: V2Factory
-    network: rinkeby
+    network: matic
     source:
       address: '0x6690C139564144b27ebABA71F9126611a23A31C9'
       abi: V2Factory
@@ -29,7 +29,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: MolochV2Template
-    network: rinkeby
+    network: matic
     source:
       abi: V2Moloch
     mapping:
